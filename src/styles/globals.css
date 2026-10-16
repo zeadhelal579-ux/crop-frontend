@@ -1,0 +1,43 @@
+/*
+ * Global styles: Tailwind layers, the page-background utility that imitates
+ * the Figma crop-field photography with pure CSS, and RTL font handling.
+ * Logical CSS properties are used everywhere so dir="rtl" mirrors correctly.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-primary-950 font-sans text-neutral-800;
+  }
+  /* Arabic text prefers the Noto Sans Arabic glyphs first. */
+  html[dir="rtl"] body {
+    font-family: "Noto Sans Arabic", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-secondary-400 ring-offset-2;
+  }
+}
+
+@layer components {
+  /* Dark green crop-field backdrop used behind every authenticated screen. */
+  .bg-field {
+    background-color: #1d3a20;
+    background-image:
+      linear-gradient(180deg, rgba(8, 30, 12, 0.55) 0%, rgba(8, 30, 12, 0.86) 100%),
+      repeating-linear-gradient(98deg, #2b5a2e 0 22px, #234a27 22px 44px, #31622f 44px 60px);
+    background-attachment: fixed;
+  }
+  /* Translucent light card sitting on top of the field backdrop. */
+  .glass-card {
+    @apply rounded-xl3 bg-surface-card/95 shadow-card backdrop-blur;
+  }
+  /* Small uppercase caption used for stat labels in the design. */
+  .caption {
+    @apply text-[10px] font-semibold uppercase tracking-wide text-neutral-500;
+  }
+}

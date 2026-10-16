@@ -1,0 +1,173 @@
+{
+  "title": "Farm Overview",
+  "switchFarm": "Switch farm",
+  "hero": {
+    "profile": "FARM PROFILE #{{code}}",
+    "vigor": "COMPREHENSIVE VIGOR",
+    "healthScore": "Overall Health Score",
+    "health": {
+      "vigorous": "Vigorous",
+      "stable": "Stable",
+      "stressed": "Stressed"
+    },
+    "allocation": "Crop Allocation by Zone ({{total}} Ha Total)",
+    "zone": "{{crop}} {{percent}}% ({{hectares}} Ha)",
+    "soilMoisture": "Avg Soil Moisture",
+    "lastIrrigation": "Last Irrigation",
+    "nextIrrigation": "Next: {{time}}",
+    "ndvi": "NDVI Canopy",
+    "ndviNote": "Optimal Photosynthesis",
+    "traps": "Active Traps",
+    "sightings": "sightings",
+    "trapsNote": "Reported sightings"
+  },
+  "satellite": {
+    "live": "LIVE ORTHOMOSAIC",
+    "resolution": "Resolution: {{resolution}} m/px • {{source}}",
+    "title": "Parcels Health & Orthomosaic Satellite Grid",
+    "mapLabel": "Satellite parcel map",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Reset zoom",
+    "elevation": "Elev {{value}}m",
+    "legend": {
+      "title": "NDVI CLASSIFICATION",
+      "high": "High Vigor (Low Risk)",
+      "moderate": "Moderate Stress (Mid Risk)",
+      "critical": "Critical Pest Alert (High Risk)"
+    },
+    "vigor": {
+      "HighVigor": "High Vigor",
+      "ModerateStress": "Moderate Vigor",
+      "CriticalAlert": "Critical Alert"
+    },
+    "vigorLine": "{{vigor}} (NDVI {{value}})",
+    "plotTag": "PLOT {{code}}",
+    "alertTag": "ALERT • {{code}}",
+    "pestAlert": "Pest Alert • {{species}}",
+    "area": "{{area}} Ha",
+    "plotPill": "PLOT {{code}} ({{area}} Ha) • {{status}}",
+    "layer": "Satellite / NDVI Layer",
+    "mapFallback": "Google Maps is not available right now, so the schematic parcel map is shown."
+  },
+  "parcels": {
+    "title": "Active Field Parcels",
+    "synced": "Auto-synced {{age}}",
+    "newField": "New Field"
+  },
+  "parcel": {
+    "caption": "PARCEL {{code}} • {{area}} HA",
+    "highThreat": "High Threat",
+    "alertBanner": "{{species}} Alert",
+    "actionRequired": "ACTION REQUIRED",
+    "phenology": "Crop Phenology Stage",
+    "stage": "{{stage}} (Day {{day}})",
+    "soilMoisture": "Est. Soil Moisture",
+    "moistureLow": "{{value}}% (Low)",
+    "lastIrrigation": "Last Irrigation",
+    "irrigationStatus": "Irrigation Status",
+    "urgentDrip": "Urgent Drip Required",
+    "scheduledAt": "Scheduled ({{time}})",
+    "irrigationDone": "{{age}} ({{note}})",
+    "irrigationNote": {
+      "Optimal": "Optimal",
+      "Saturated": "Saturated"
+    },
+    "trapCatch": "Trap Catch",
+    "perWeek": "{{count}} / wk",
+    "trapStatus": {
+      "Dormant": "Dormant",
+      "Nominal": "Nominal",
+      "Safe": "Safe",
+      "Critical": "Critical"
+    },
+    "recommendations": "Recommendations"
+  },
+  "phenology": {
+    "Seedling": "Seedling",
+    "FloweringFruitSet": "Flowering / Fruit Set",
+    "EarlyRipening": "Early Ripening",
+    "VegetativeFruitSet": "Vegetative / Fruit Set",
+    "MatureCanopy": "Mature Canopy"
+  },
+  "form": {
+    "title": "Add a field parcel",
+    "description": "Draw the boundary on the map and choose the crop.",
+    "name": "Field name",
+    "namePlaceholder": "e.g. Field B-05",
+    "cropType": "Crop type",
+    "cropPlaceholder": "Select crop",
+    "area": "Area (ha)",
+    "plantingDate": "Planting date",
+    "boundary": "Field boundary",
+    "submit": "Create field",
+    "saving": "Saving…",
+    "created": "{{name}} created",
+    "failed": "Could not create the field.",
+    "errors": {
+      "name": "Enter a field name.",
+      "cropType": "Choose a crop.",
+      "area": "Area must be greater than zero.",
+      "plantingDate": "Planting date cannot be in the future.",
+      "boundary": "Draw the boundary with at least 3 points."
+    }
+  },
+  "boundary": {
+    "canvasLabel": "Boundary drawing canvas",
+    "hint": "Click to add corner points ({{count}} placed, at least 3 needed)",
+    "undo": "Undo",
+    "clear": "Clear"
+  },
+  "species": {
+    "method": {
+      "pheromone": "Pheromone-baited traps",
+      "yellowSticky": "Yellow sticky traps",
+      "mcphail": "McPhail traps"
+    }
+  },
+  "detail": {
+    "loading": "Field",
+    "back": "Back to farm",
+    "monitored": "Monitored species",
+    "speciesTabs": "Species shown in the charts",
+    "noSpecies": "No species are monitored on this field yet.",
+    "charts": {
+      "gdd": "GDD accumulation • {{species}}",
+      "risk": "Outbreak probability • {{species}}",
+      "traps": "Trap counts • {{species}}",
+      "ndvi": "NDVI trend"
+    },
+    "stage": {
+      "Egg": "Egg",
+      "Larva": "Larva",
+      "Pupa": "Pupa",
+      "Nymph": "Nymph",
+      "Adult": "Adult"
+    },
+    "series": {
+      "eggs": "Eggs",
+      "larvae": "Larvae",
+      "adults": "Adults",
+      "ftd": "Flies / trap / day"
+    },
+    "source": {
+      "sentinel-2": "Satellite (Sentinel-2)",
+      "drone-upload": "Drone upload"
+    }
+  },
+  "delete": {
+    "action": "Delete {{name}}",
+    "title": "Delete {{name}}?",
+    "body": "This removes the field and its monitoring data from the farm. This cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete field",
+    "deleting": "Deleting…",
+    "done": "{{name}} was deleted",
+    "failed": "Could not delete the field."
+  },
+  "noFields": {
+    "title": "No fields on this farm yet",
+    "body": "Add a field parcel in Farm Overview to see forecasts and charts here.",
+    "cta": "Go to Farm Overview"
+  }
+}

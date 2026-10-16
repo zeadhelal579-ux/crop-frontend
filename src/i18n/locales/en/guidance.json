@@ -1,0 +1,15 @@
+{
+  "title": "Recommendations & Targeted Intervention Schedule",
+  "priority": {
+    "CriticalPriority": "Critical Priority",
+    "PreemptiveBiocontrol": "Preemptive Biocontrol",
+    "DiagnosticTrigger": "Model Diagnostic Trigger"
+  },
+  "recommendedAction": "Recommended action",
+  "accepted": "Accepted",
+  "viewGddCurve": "View GDD curve",
+  "pollinatorToxicity": "{{value}}% Pollinator Toxicity",
+  "empty": "No open recommendations right now.",
+  "filteredByField": "Filtered by field",
+  "clearFilter": "Clear filter"
+}

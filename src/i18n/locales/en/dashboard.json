@@ -1,0 +1,38 @@
+{
+  "greeting": "Hello, {{name}}",
+  "gdd": {
+    "title": "Accumulative GDD",
+    "info": "Growing Degree Days: heat accumulated above the pest's base temperature.",
+    "subtitle": "BASE {{base}}°C • {{crops}}",
+    "sevenDays": "7 Days",
+    "unitsLabel": "Growing Degree Units",
+    "average": "Avg: {{value}} GDD",
+    "delta": "({{value}}% vs last wk)"
+  },
+  "targetPest": {
+    "title": "Target Pest",
+    "select": "Select target pest",
+    "caption": "{{species}} ({{crop}})",
+    "open": "Open pest forecast"
+  },
+  "weather": {
+    "title": "Weather",
+    "condition": { "PartlyCloudy": "Partly Cloudy", "Clear": "Clear", "Cloudy": "Cloudy", "Rain": "Rain" },
+    "details": "Precipitation: {{precipitation}}% • Dew Point: {{dewPoint}}°C",
+    "highLow": "H: {{high}}° • L: {{low}}°",
+    "baseline": "{{value}}° vs Season Baseline",
+    "pressure": "Pressure: {{value}} hPa",
+    "humidity": "Humidity: {{value}}%",
+    "wind": "Wind: {{speed}} km/h {{direction}}"
+  },
+  "monitor": {
+    "title": "Pest Risk Monitor",
+    "subtitle": "7-Day Outbreak Forecast for Tracked Species",
+    "recommendations": "Recommendations",
+    "downloadReport": "Download Report",
+    "reportTitle": "Download CROP report",
+    "reportDescription": "Generate a PDF with risk history, GDD curves and recommendations.",
+    "caption": { "today": "Today", "yesterday": "Yesterday", "past": "Past", "forecast": "Forecast" }
+  },
+  "condition": { "Clear": "Clear", "Humid": "Humid", "Warm": "Warm", "HighRH": "High RH", "PeakRH": "Peak RH", "Breeze": "Breeze", "Dry": "Dry" }
+}

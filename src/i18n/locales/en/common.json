@@ -1,0 +1,113 @@
+{
+  "actions": {
+    "close": "Close",
+    "loading": "Loading"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "dashboard": "Dashboard",
+    "farm": "Farm",
+    "pests": "Pests",
+    "guidance": "Guidance",
+    "help": "Help",
+    "alerts": "Alerts ({{number}} unread)",
+    "userMenu": "User menu",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "language": {
+    "switchTo": "Switch to {{language}}",
+    "names": {
+      "en": "English",
+      "ar": "العربية"
+    }
+  },
+  "roles": {
+    "Farmer": "Farmer",
+    "Agronomist": "Agronomist",
+    "OrgAdmin": "Org Admin",
+    "Government": "Government",
+    "PlatformAdmin": "Platform Admin"
+  },
+  "crops": {
+    "tomato": "Tomatoes",
+    "pepper": "Peppers",
+    "cucumber": "Cucumber",
+    "citrus": "Citrus",
+    "peach": "Peaches",
+    "fig": "Figs"
+  },
+  "cropSingular": {
+    "tomato": "Tomato",
+    "pepper": "Pepper",
+    "cucumber": "Cucumber",
+    "citrus": "Citrus",
+    "peach": "Peach",
+    "fig": "Fig"
+  },
+  "risk": {
+    "Low": "Low Risk",
+    "Mid": "Mid Risk",
+    "High": "High Risk"
+  },
+  "time": {
+    "minutesAgo": "{{value}}m ago",
+    "hoursAgo": "{{value}}h ago",
+    "daysAgo": "{{value}}d ago"
+  },
+  "alerts": {
+    "title": "Alerts",
+    "history": "Alert history",
+    "live": "Live alert feed",
+    "liveEmpty": "Waiting for live alerts…",
+    "empty": "No alerts match your filters.",
+    "unacknowledged": "Unacknowledged",
+    "filterRisk": "Filter by risk",
+    "allRisks": "All risks",
+    "newest": "Newest first",
+    "oldest": "Oldest first",
+    "acknowledge": "Acknowledge",
+    "acknowledged": "Acknowledged",
+    "agent": "AI-drafted advisory",
+    "template": "Standard template advisory",
+    "regional": "Regional risk map",
+    "regionSpecies": "Species",
+    "mapLabel": "Regional outbreak risk grid"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your CROP dashboard with your Google account",
+    "login": "Sign in",
+    "register": "Create account",
+    "registerTitle": "Create your CROP account",
+    "registerSubtitle": "Use your Google account - there is no password to remember",
+    "noAccount": "New to CROP?",
+    "haveAccount": "Already have an account?",
+    "email": "Email",
+    "language": "Language",
+    "failed": "Something went wrong. Please try again.",
+    "signingIn": "Signing you in...",
+    "retry": "Try again",
+    "googleFailed": "We could not verify your Google sign-in. Please try again.",
+    "googleBlocked": "Google sign-in could not be loaded. Check your connection or ad blocker, then try again.",
+    "googleNotConfigured": "Google sign-in is not set up on this deployment yet.",
+    "demoContinue": "Continue with the demo account",
+    "demoNote": "Demo preview: you are looking at sample farm data until the CROP backend is connected."
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "fullName": "Full name",
+    "save": "Save changes",
+    "saved": "Settings saved",
+    "failed": "Could not save. Try again.",
+    "team": "Invite a teammate",
+    "role": "Role",
+    "invite": "Send invitation",
+    "invited": "Invitation sent to {{email}}"
+  },
+  "notFound": {
+    "message": "This page could not be found.",
+    "back": "Back to dashboard"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "التوصيات وجدول التدخل المستهدف",
+  "priority": {
+    "CriticalPriority": "أولوية حرجة",
+    "PreemptiveBiocontrol": "مكافحة حيوية استباقية",
+    "DiagnosticTrigger": "مؤشر تشخيصي من النموذج"
+  },
+  "recommendedAction": "الإجراء الموصى به",
+  "accepted": "تم القبول",
+  "viewGddCurve": "عرض منحنى الدرجات الحرارية",
+  "pollinatorToxicity": "{{value}}% سمية على الملقِّحات",
+  "empty": "لا توجد توصيات مفتوحة حاليًا.",
+  "filteredByField": "مصفّاة حسب الحقل",
+  "clearFilter": "إلغاء التصفية"
+}

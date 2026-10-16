@@ -1,0 +1,173 @@
+{
+  "title": "نظرة عامة على المزرعة",
+  "switchFarm": "تبديل المزرعة",
+  "hero": {
+    "profile": "ملف المزرعة #{{code}}",
+    "vigor": "الحيوية الشاملة",
+    "healthScore": "مؤشر الصحة العام",
+    "health": {
+      "vigorous": "قوية",
+      "stable": "مستقرة",
+      "stressed": "مجهدة"
+    },
+    "allocation": "توزيع المحاصيل حسب المنطقة ({{total}} هكتار إجمالًا)",
+    "zone": "{{crop}} {{percent}}% ({{hectares}} هكتار)",
+    "soilMoisture": "متوسط رطوبة التربة",
+    "lastIrrigation": "آخر ري",
+    "nextIrrigation": "التالي: {{time}}",
+    "ndvi": "مؤشر الغطاء NDVI",
+    "ndviNote": "تمثيل ضوئي مثالي",
+    "traps": "المصائد النشطة",
+    "sightings": "رصد",
+    "trapsNote": "مشاهدات مسجلة"
+  },
+  "satellite": {
+    "live": "فسيفساء مباشرة",
+    "resolution": "الدقة: {{resolution}} م/بكسل • {{source}}",
+    "title": "صحة القطع وشبكة الأقمار الصناعية",
+    "mapLabel": "خريطة قطع الأرض بالأقمار الصناعية",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "resetZoom": "إعادة الضبط",
+    "elevation": "الارتفاع {{value}} م",
+    "legend": {
+      "title": "تصنيف NDVI",
+      "high": "حيوية عالية (خطر منخفض)",
+      "moderate": "إجهاد متوسط (خطر متوسط)",
+      "critical": "إنذار آفة حرج (خطر مرتفع)"
+    },
+    "vigor": {
+      "HighVigor": "حيوية عالية",
+      "ModerateStress": "حيوية متوسطة",
+      "CriticalAlert": "إنذار حرج"
+    },
+    "vigorLine": "{{vigor}} (NDVI {{value}})",
+    "plotTag": "القطعة {{code}}",
+    "alertTag": "تنبيه • {{code}}",
+    "pestAlert": "تنبيه آفة • {{species}}",
+    "area": "{{area}} هكتار",
+    "plotPill": "القطعة {{code}} ({{area}} هكتار) • {{status}}",
+    "layer": "طبقة القمر الصناعي / NDVI",
+    "mapFallback": "خرائط جوجل غير متاحة حاليًا، لذلك تم عرض خريطة القطع التخطيطية."
+  },
+  "parcels": {
+    "title": "قطع الحقول النشطة",
+    "synced": "مزامنة تلقائية {{age}}",
+    "newField": "حقل جديد"
+  },
+  "parcel": {
+    "caption": "القطعة {{code}} • {{area}} هكتار",
+    "highThreat": "تهديد مرتفع",
+    "alertBanner": "تنبيه {{species}}",
+    "actionRequired": "مطلوب إجراء",
+    "phenology": "مرحلة نمو المحصول",
+    "stage": "{{stage}} (اليوم {{day}})",
+    "soilMoisture": "رطوبة التربة التقديرية",
+    "moistureLow": "{{value}}% (منخفضة)",
+    "lastIrrigation": "آخر ري",
+    "irrigationStatus": "حالة الري",
+    "urgentDrip": "ري بالتنقيط عاجل",
+    "scheduledAt": "مجدول ({{time}})",
+    "irrigationDone": "{{age}} ({{note}})",
+    "irrigationNote": {
+      "Optimal": "مثالي",
+      "Saturated": "مشبعة"
+    },
+    "trapCatch": "صيد المصائد",
+    "perWeek": "{{count}} / أسبوع",
+    "trapStatus": {
+      "Dormant": "خامل",
+      "Nominal": "طبيعي",
+      "Safe": "آمن",
+      "Critical": "حرج"
+    },
+    "recommendations": "التوصيات"
+  },
+  "phenology": {
+    "Seedling": "شتلة",
+    "FloweringFruitSet": "إزهار / عقد ثمار",
+    "EarlyRipening": "بداية النضج",
+    "VegetativeFruitSet": "نمو خضري / عقد ثمار",
+    "MatureCanopy": "مظلة ناضجة"
+  },
+  "form": {
+    "title": "إضافة قطعة حقل",
+    "description": "ارسم حدود الحقل على الخريطة واختر المحصول.",
+    "name": "اسم الحقل",
+    "namePlaceholder": "مثال: Field B-05",
+    "cropType": "نوع المحصول",
+    "cropPlaceholder": "اختر المحصول",
+    "area": "المساحة (هكتار)",
+    "plantingDate": "تاريخ الزراعة",
+    "boundary": "حدود الحقل",
+    "submit": "إنشاء الحقل",
+    "saving": "جارٍ الحفظ…",
+    "created": "تم إنشاء {{name}}",
+    "failed": "تعذر إنشاء الحقل.",
+    "errors": {
+      "name": "أدخل اسم الحقل.",
+      "cropType": "اختر المحصول.",
+      "area": "يجب أن تكون المساحة أكبر من صفر.",
+      "plantingDate": "لا يمكن أن يكون تاريخ الزراعة في المستقبل.",
+      "boundary": "ارسم الحدود بثلاث نقاط على الأقل."
+    }
+  },
+  "boundary": {
+    "canvasLabel": "لوحة رسم الحدود",
+    "hint": "انقر لإضافة نقاط الزوايا ({{count}} نقطة، المطلوب 3 على الأقل)",
+    "undo": "تراجع",
+    "clear": "مسح"
+  },
+  "species": {
+    "method": {
+      "pheromone": "مصائد فيرمونية",
+      "yellowSticky": "مصائد لاصقة صفراء",
+      "mcphail": "مصائد ماكفيل"
+    }
+  },
+  "detail": {
+    "loading": "الحقل",
+    "back": "العودة إلى المزرعة",
+    "monitored": "الأنواع المراقبة",
+    "speciesTabs": "النوع المعروض في الرسوم",
+    "noSpecies": "لا توجد آفات مراقَبة على هذا الحقل بعد.",
+    "charts": {
+      "gdd": "تراكم الدرجات الحرارية • {{species}}",
+      "risk": "احتمال التفشي • {{species}}",
+      "traps": "أعداد المصائد • {{species}}",
+      "ndvi": "اتجاه NDVI"
+    },
+    "stage": {
+      "Egg": "بيضة",
+      "Larva": "يرقة",
+      "Pupa": "عذراء",
+      "Nymph": "حورية",
+      "Adult": "حشرة بالغة"
+    },
+    "series": {
+      "eggs": "بيض",
+      "larvae": "يرقات",
+      "adults": "بالغات",
+      "ftd": "ذباب / مصيدة / يوم"
+    },
+    "source": {
+      "sentinel-2": "قمر صناعي (Sentinel-2)",
+      "drone-upload": "رفع من درون"
+    }
+  },
+  "delete": {
+    "action": "حذف {{name}}",
+    "title": "حذف {{name}}؟",
+    "body": "سيتم حذف الحقل وبيانات مراقبته من المزرعة. لا يمكن التراجع عن ذلك.",
+    "cancel": "إلغاء",
+    "confirm": "حذف الحقل",
+    "deleting": "جارٍ الحذف…",
+    "done": "تم حذف {{name}}",
+    "failed": "تعذر حذف الحقل."
+  },
+  "noFields": {
+    "title": "لا توجد حقول في هذه المزرعة بعد",
+    "body": "أضف قطعة حقل من نظرة عامة على المزرعة لتظهر التوقعات والرسوم هنا.",
+    "cta": "الذهاب إلى نظرة المزرعة"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Pest Risk Forecast",
+  "modeled": "{{count}} Pests Modeled",
+  "activity": { "High": "High Activity ({{percent}}%)", "Mid": "Moderate Risk ({{percent}}%)", "Low": "Low Activity ({{percent}}%)" },
+  "stage": { "Egg": "Egg", "Larva": "Larval", "Pupa": "Pupal", "Nymph": "Nymph", "Adult": "Adult" },
+  "tiles": {
+    "progress": "GDD Progress",
+    "progressValue": "{{current}} / {{total}} ({{percent}}%)",
+    "stage": "Predicted Stage",
+    "emergence": "Emergence",
+    "emergenceValue": "In {{days}} days"
+  },
+  "deepDive": {
+    "title": "Target Deep Dive • {{species}}",
+    "chartTitle": "GDD Accumulation vs Emergence Threshold",
+    "legendCount": "Trap Predicted Count",
+    "legendThreshold": "Threshold ({{value}})",
+    "impactTitle": "Predicted Field Impact",
+    "noImpact": "No impact forecast for this species right now.",
+    "protocolTitle": "Recommended Protocol",
+    "noProtocol": "No intervention is needed right now."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "greeting": "مرحبًا، {{name}}",
+  "gdd": {
+    "title": "تراكم الدرجات الحرارية",
+    "info": "الدرجات الحرارية النامية: الحرارة المتراكمة فوق درجة الحرارة الأساسية للآفة.",
+    "subtitle": "الأساس {{base}}°م • {{crops}}",
+    "sevenDays": "7 أيام",
+    "unitsLabel": "وحدات الدرجات الحرارية",
+    "average": "المتوسط: {{value}} GDD",
+    "delta": "({{value}}% مقارنة بالأسبوع الماضي)"
+  },
+  "targetPest": {
+    "title": "الآفة المستهدفة",
+    "select": "اختر الآفة المستهدفة",
+    "caption": "{{species}} ({{crop}})",
+    "open": "فتح توقعات الآفة"
+  },
+  "weather": {
+    "title": "الطقس",
+    "condition": { "PartlyCloudy": "غائم جزئيًا", "Clear": "صافٍ", "Cloudy": "غائم", "Rain": "ماطر" },
+    "details": "الهطول: {{precipitation}}% • نقطة الندى: {{dewPoint}}°م",
+    "highLow": "العظمى: {{high}}° • الصغرى: {{low}}°",
+    "baseline": "{{value}}° عن خط الأساس الموسمي",
+    "pressure": "الضغط: {{value}} هكتوباسكال",
+    "humidity": "الرطوبة: {{value}}%",
+    "wind": "الرياح: {{speed}} كم/س {{direction}}"
+  },
+  "monitor": {
+    "title": "مراقب خطر الآفات",
+    "subtitle": "توقعات التفشي لـ 7 أيام للأنواع المتابعة",
+    "recommendations": "التوصيات",
+    "downloadReport": "تنزيل التقرير",
+    "reportTitle": "تنزيل تقرير CROP",
+    "reportDescription": "أنشئ ملف PDF يضم سجل الخطر ومنحنيات الدرجات الحرارية والتوصيات.",
+    "caption": { "today": "اليوم", "yesterday": "أمس", "past": "سابق", "forecast": "متوقع" }
+  },
+  "condition": { "Clear": "صافٍ", "Humid": "رطب", "Warm": "دافئ", "HighRH": "رطوبة عالية", "PeakRH": "ذروة الرطوبة", "Breeze": "نسيم", "Dry": "جاف" }
+}

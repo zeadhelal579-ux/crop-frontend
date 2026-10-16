@@ -1,0 +1,23 @@
+{
+  "title": "توقعات خطر الآفات",
+  "modeled": "{{count}} آفات مُنمذجة",
+  "activity": { "High": "نشاط مرتفع ({{percent}}%)", "Mid": "خطر متوسط ({{percent}}%)", "Low": "نشاط منخفض ({{percent}}%)" },
+  "stage": { "Egg": "طور البيضة", "Larva": "طور اليرقة", "Pupa": "طور العذراء", "Nymph": "طور الحورية", "Adult": "طور البالغ" },
+  "tiles": {
+    "progress": "تقدم الدرجات الحرارية",
+    "progressValue": "{{current}} / {{total}} ({{percent}}%)",
+    "stage": "الطور المتوقع",
+    "emergence": "الظهور",
+    "emergenceValue": "خلال {{days}} أيام"
+  },
+  "deepDive": {
+    "title": "تحليل معمّق • {{species}}",
+    "chartTitle": "تراكم الدرجات الحرارية مقابل عتبة الظهور",
+    "legendCount": "العدد المتوقع في المصيدة",
+    "legendThreshold": "العتبة ({{value}})",
+    "impactTitle": "الأثر المتوقع على الحقل",
+    "noImpact": "لا توجد توقعات أثر لهذا النوع حاليًا.",
+    "protocolTitle": "البروتوكول الموصى به",
+    "noProtocol": "لا حاجة لتدخل حاليًا."
+  }
+}

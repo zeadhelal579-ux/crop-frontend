@@ -1,0 +1,62 @@
+{
+  "title": "Help & Knowledge Center",
+  "description": "Explore guides for GDD thermal modeling, satellite vegetation monitoring, and pest emergence forecasting",
+  "eyebrow": "KNOWLEDGE BASE & FIELD SUPPORT",
+  "quickTopics": "QUICK TOPICS:",
+  "topics": { "tuta": "Tuta absoluta Protocols", "gdd": "GDD Accumulation Logic", "ndvi": "Satellite Vegetation Index (NDVI)" },
+  "search": "Search guides, pests, GDD models",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Core guidance for day-to-day agronomic decisions on CROP AI",
+    "empty": "No question matches your search.",
+    "thresholds": {
+      "question": "How does CROP calculate the 3 Outbreak Risk Thresholds?",
+      "answer": "Risk levels are calculated by tracking Growing Degree Day (GDD) accumulation against species-specific emergence thresholds, using live weather data and satellite vegetation health (NDVI) to forecast pest activity before it occurs."
+    },
+    "species": {
+      "question": "Why does the platform only track 3 specific insect species?",
+      "answer": "CROP is calibrated on three high-impact pests - Tuta absoluta, Bemisia tabaci and Ceratitis capitata - because each needs its own thermal thresholds and monitoring method. More species are added only after local validation."
+    },
+    "refresh": {
+      "question": "How often are Sentinel-2 and Drone NDVI maps refreshed?",
+      "answer": "Sentinel-2 imagery is checked daily and a new NDVI map appears about every 5 days when the sky is cloud-free. Drone NDVI uploads are processed immediately."
+    },
+    "tiers": {
+      "Low": { "title": "Low Risk (<40%)", "action": "Routine scouting and baseline perimeter pheromone patrols." },
+      "Mid": { "title": "Mid Risk (40–69%)", "action": "Recommend farmer deploy yellow sticky traps and increase scouting frequency." },
+      "High": { "title": "High Risk (≥70%)", "action": "Mandatory biological intervention (Bt spray / Encarsia release)." }
+    }
+  },
+  "contact": {
+    "title": "Contact Support",
+    "subtitle": "On-call agronomist & technical field team",
+    "help": "Need help interpreting a risk alert or verifying a GDD forecast?",
+    "chat": "Chat with Agronomist on Duty",
+    "ticket": "Submit Technical Field Ticket",
+    "chatUnavailable": "Live chat is not connected yet",
+    "chatUnavailableHint": "Use \"Submit Technical Field Ticket\" and the field desk will reply by email.",
+    "chatOpening": "Opening chat for {{name}}…",
+    "avgResponse": "Avg response",
+    "avgResponseValue": "< 4 Minutes",
+    "fieldDesk": "Field desk",
+    "fieldDeskValue": "El-Beheira"
+  },
+  "ticket": {
+    "title": "Technical field ticket",
+    "description": "Describe the problem and our field desk will follow up.",
+    "subject": "Subject",
+    "details": "Details",
+    "submit": "Send ticket",
+    "required": "This field is required.",
+    "sent": "Ticket submitted",
+    "failed": "Could not submit the ticket."
+  },
+  "report": {
+    "title": "CROP Report",
+    "defaultMeta": "PDF v2.4 • 14 MB",
+    "meta": "PDF {{version}} • {{size}} MB",
+    "download": "Download",
+    "generating": "Generating…",
+    "failed": "Report generation failed. Try again."
+  }
+}
